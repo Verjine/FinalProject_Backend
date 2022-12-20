@@ -18,6 +18,9 @@ npm run start
  
  [Click here to open frontend](https://github.com/Verjine/Final_Front_Project.git)
 
+  
+  ## Author
+ Verjine
 
 
 

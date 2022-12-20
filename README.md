@@ -4,16 +4,12 @@ In this project we use MongoDB, Mongoose, Node.JS, ExpressJS
 
  
  ### Installing
- ```
- git clone https://github.com/Verjine/FinalProject_Backend.git
- cd  project FinalProject_Backend
- npm install
- ```
+`
  + Clone repository from GitHub
    git clone https://github.com/Verjine/FinalProject_Backend.git
 
-+cd project
-```cd  project FinalProject_Backend```
+ + cd project
+ ```cd  project FinalProject_Backend```
 
 + Install node modules
   ```npm install```

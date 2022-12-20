@@ -9,9 +9,18 @@ In this project we use MongoDB, Mongoose, Node.JS, ExpressJS
  cd  project FinalProject_Backend
  npm install
  ```
- 
- ## Getting Started
-npm run start
+ + Clone repository from GitHub
+   git clone https://github.com/Verjine/FinalProject_Backend.git
+
++cd project
+```cd  project FinalProject_Backend```
+
++ Install node modules
+  ```npm install```
+  
++ Getting started
+  ```npm run  start```
+
 
 
  ## FlowerShop fronend

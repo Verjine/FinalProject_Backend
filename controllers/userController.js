@@ -51,7 +51,7 @@ export const Login = async (req, res) => {
 
     const validPassword = bcrypt.compareSync(password, User.password);
     if (!validPassword) {
-      return res.status(400).json({ message: "Sxal password" });
+      return res.status(400).json({ message: "Wrong password" });
     }
     const token = generateAccessToken(User._id, User.roles);
     return res.json({ token: token, username:User.username });

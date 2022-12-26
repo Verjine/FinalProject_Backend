@@ -98,20 +98,4 @@ export const deleteFlower = async (req, res) => {
   }
 }
 
-// export const postFlowers = async (req, res) => {
-//   try {
-//     const Flower = new flower({
-//       title: req.body.title,
-//       price: req.body.price,
-//       imgUrl: req.body.imgUrl,
-//     });
-//     await Flower.save();
-//     res.send(Flower);
-//   } catch (error) {
-//     res.json({
-//       message: "something went wrong!",
-      
-//     });
-//   }
-// };
 

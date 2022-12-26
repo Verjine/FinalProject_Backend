@@ -6,6 +6,8 @@ import cors from "cors";
 config();
 
 import flowerRoute from "./routes/flowerRoute.js";
+import userRoute from "./routes/userRoute.js";
+
 
 const app = express();
 const jsonparser = bodyParser.json();
@@ -14,6 +16,8 @@ app.use(cors());
 
 const PORT = 5000;
 app.use("/flower", flowerRoute);
+app.use("/user", userRoute);
+
 app.get("/", (req, res) => {
   res.send("Hello");
 });
